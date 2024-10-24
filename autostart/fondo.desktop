@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Encoding=UTF-8
+Name=Firefox
+Exec=./.config/autostart/fondo-borrado.sh
+Icon=firefox
+Terminal=false
+StartupNotify=false
+Categories=Network;Aplication;
+X-GNOME-Autostart-enabled=true
+X-KDE-Protocols=teams
