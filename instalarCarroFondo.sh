@@ -4,7 +4,7 @@
 #echo $USER
 
 DIRECTORIOINI=/home/$USER/.config
-DIRECTORIO=/home/$USER/.config/autostart
+R
 
 if [ -d "$DIRECTORIO" ]
 then
@@ -14,3 +14,7 @@ fi
 
 #Copiamos el directorio a la carpeta .config
 cp -r autostart  "$DIRECTORIOINI"
+
+#Damos privilegios al sh de la carpta .config
+cd $DIRETORIO
+chmod 777 fondo-borrado.sh
